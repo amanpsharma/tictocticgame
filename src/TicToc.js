@@ -157,7 +157,7 @@ export default class TicToc extends Component {
             this.initBoard();
           }}
         >
-          New Game
+          Try new Game
         </div>
 
         <table>

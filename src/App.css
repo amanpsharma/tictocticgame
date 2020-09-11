@@ -1,8 +1,6 @@
 body {
   font-family: "Lucida Sans Unicode";
-  /* background: #6441a5; */
   background: -webkit-linear-gradient(to left, #6441a5, #2a0845);
-  /* background: linear-gradient(to left, #6441a5, #2a0845); */
 }
 
 h1 {
@@ -33,7 +31,6 @@ table {
 }
 
 .button:hover {
-  /*   background-color: #50C8FF; */
   color: #ffffff;
   transition: background-color 0.2s, color 0.5s;
 }
@@ -59,7 +56,6 @@ table {
   font-size: 20px;
   font-weight: bold;
   color: #009387;
-  /* color: white; */
 }
 
 .play {
