@@ -1,6 +1,3 @@
-body {
-  font-family: "Lucida Sans Unicode";
-}
 
 h1 {
   text-align: center;
@@ -13,7 +10,7 @@ table {
 
 .button {
   background-color: #009387;
-  color: #6441a5;
+  color: #fff;
   height: 40px;
   font-weight: bold;
   width: 150px;

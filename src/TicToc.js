@@ -139,12 +139,9 @@ export default class TicToc extends Component {
       hideClass: {
         popup: "animate__animated animate__fadeOutUp",
       },
-    }).then((result) => {
-      if (result.isConfirmed) {
-        Swal.fire("Thanks!", "Your game is over try new game.", "success");
-      }
-    },()=>{
-        this.initBoard()
+      preConfirm: () => {
+        this.initBoard();
+      },
     });
   }
 
