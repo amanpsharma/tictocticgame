@@ -147,7 +147,7 @@ export default class TicToc extends Component {
 
   render() {
     return (
-      <div>
+      <div className="main-wrapper">
         <div
           className="button"
           onClick={() => {
