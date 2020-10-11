@@ -131,7 +131,7 @@ export default class TicToc extends Component {
 
   message() {
     Swal.fire({
-      title: "Thanks your game is over try with new...",
+      title: this.state.message,
       confirmButtonText: "Game over",
       showClass: {
         popup: "animate__animated animate__fadeInDown",
